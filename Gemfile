@@ -7,6 +7,7 @@ gem 'rails', '4.1.1'
 gem 'bootstrap-sass', '2.3.2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+gem 'bcrypt-ruby', '3.0.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -31,6 +32,7 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'sqlite3', '1.3.8'
   gem 'guard-rspec', '2.5.0'
+  gem 'annotate'
 end
 
 group :test do
@@ -52,4 +54,6 @@ end
 
 gem 'therubyracer', :platforms => :ruby
 gem 'execjs'
+
+gem 'minitest'
 

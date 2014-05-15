@@ -27,7 +27,11 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    annotate (2.6.3)
+      activerecord (>= 2.3.0)
+      rake (>= 0.8.7)
     arel (5.0.1.20140414130214)
+    bcrypt-ruby (3.0.1)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
     builder (3.2.2)
@@ -204,6 +208,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
+  bcrypt-ruby (= 3.0.1)
   bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
   childprocess
@@ -213,6 +219,7 @@ DEPENDENCIES
   guard-spork (= 1.5.0)
   jbuilder (~> 2.0)
   jquery-rails
+  minitest
   pg (= 0.15.1)
   rails (= 4.1.1)
   rails_12factor (= 0.0.2)
